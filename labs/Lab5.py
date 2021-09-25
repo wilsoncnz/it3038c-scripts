@@ -1,7 +1,5 @@
 from datetime import datetime
 
-
-
 now = datetime.now()
 now=str(now)
 
@@ -32,7 +30,7 @@ day = int(day)
 print('What is your year of birth?')
 year = input()
 year = int(year)
-hour = 12
+hour = 00
 minutes = 00
 seconds = 00
 
@@ -56,6 +54,8 @@ difSeconds = nowSeconds - seconds
 monthSeconds = difMonth * monthDays * 24 * 60 * 60
 daySeconds = difDay * 24 * 3600
 yearSeconds = difYear * 365 * 24 * 3600
-totalSeconds = monthSeconds + daySeconds + yearSeconds
+hourSeconds = difHour * 3600
+minuteSeconds = difMinutes * 60
+totalSeconds = monthSeconds + daySeconds + yearSeconds + hourSeconds + minuteSeconds + difSeconds
 
 print(totalSeconds)
