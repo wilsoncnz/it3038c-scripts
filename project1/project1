@@ -1,5 +1,0 @@
-import datetime
-output = datetime.datetime.now()
-print ("Today's date: %s/%s/%s" % (output.month, output.day, output.year))
-print ("The current time is: %s:%s:%s" % output.hour, output.minute, output.second))
-
