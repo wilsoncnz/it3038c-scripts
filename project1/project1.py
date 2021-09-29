@@ -1,8 +1,10 @@
-#importing the datetime module: calls for the date and time objects to supply classes
+#importing the datetime module: a combination of the date and time class.
 import datetime
+
+#setting the output variable to datetime.datetime.now: creates a local instance with date and time.
 output = datetime.datetime.now()
 
-#setting the output variable to a class date.time.datetime.now - combines date and time with date time attributes
+#prints todays date and time. Appends the string variables within the string. =%s. Lists in month, day, hour, minute, second for user.
 print ("Today's date: %s/%s/%s" % (output.month, output.day, output.year))
 print ("The current time is: %s:%s:%s" % (output.hour, output.minute, output.second))
 
