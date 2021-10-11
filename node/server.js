@@ -9,17 +9,17 @@ function getUptime_days() {
 }
 
 function getUptime_hours() {
-  hours = Math.floor(os.uptime() % (60*60*24) / (24);
+  hours = Math.floor((os.uptime() % (60*60*24)) / (60*60));
   return hours 
 }
 
 function getUptime_minutes() {
-  minutes = Math.floor(os.uptime() % (60*60*24) / (24*60));
+  minutes = Math.floor(((os.uptime() % (60*60*24)) % (60*60)) / (60));
   return minutes 
 }
 
 function getUptime_seconds() {
-  seconds = Math.floor(os.uptime() % (60*60*24) / (24*60*60));
+  seconds = Math.floor(((os.uptime() % (60*60*24)) % (60*60)) % (60));
   return seconds 
 }
 
@@ -42,9 +42,9 @@ var server = http.createServer(function(req, res) {
               <p>Hostname: ${myHostName}</p>
               <p>IP: ${ip.address()}</p>
               <p>Server Uptime: Days: ${getUptime_days()}, Hours: ${getUptime_hours()}, Minutes: ${getUptime_minutes()}, Seconds: ${getUptime_seconds()}</p>
-              <p>Total Memory: </p>
-              <p>Free Memory: </p>
-              <p>Number of CPUs: </p>            
+              <p>Total Memory: ${os.totalmem()*0.000001} MB</p>
+              <p>Free Memory: ${os.freemem()*0.000001} MB</p>
+              <p>Number of CPUs: ${os.cpus().length}</p>            
             </body>
           </html>` 
         res.writeHead(200, {"Content-Type":"text/html"});
