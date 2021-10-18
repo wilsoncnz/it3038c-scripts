@@ -5,7 +5,7 @@ In this lab, we will be utilizing the python plugin NumPy. NumPy is a plugin tha
 In this example, we will use NumPy to generate a random sample of data and manipulate it to allow for something like blind testing - this would be good for a numerical study or something similar, maybe practicing data interpretation.
 
 ### How to Install NumPy
-As a plugin for Python, I used Pip.
+NumPy is a plugin for Python, to install, I used Pip.
 To install using Pip, type:
 
 <code> pip install numpy </code> 
