@@ -66,12 +66,13 @@ Mixes and outputs p values up based on scrambled index.
 
 This code could be useful for generating data points around localized zones and mixing index values for corresponding points. 
 
+### Some relevant sources:
+https://www.youtube.com/watch?v=QUT1VHiLmmI
 
+https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html
 
+https://numpy.org/devdocs/user/absolute_beginners.html
 
-
-
-
-
+https://www.youtube.com/watch?v=mOZ0UCeuRX4
   
 
