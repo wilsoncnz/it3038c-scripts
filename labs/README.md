@@ -12,11 +12,11 @@ To install using Pip, type:
 
 <code> import numpy </code>
 
-## Looking at Lab 7 code
+## Looking at Lab 7 code - Python
 https://github.com/wilsoncnz/it3038c-scripts/blob/main/labs/Lab7.py
 
 In this Lab I chose to generate random numerical values to show how NumPy can manipulate arrays, the values in the array, indexes, index values, etc.
-This would be useful with manipulating data, gathering data, organizing data, and research settings.
+This would be useful with manipulating data, gathering data, organizing data, and research settings. You can click on the link above to access the code and copy and paste it into whatever application you would like that supports Python. 
 
 <code> numpy.random.seed(1234) </code>
 
