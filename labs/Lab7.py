@@ -1,5 +1,5 @@
 import numpy
-numpy.random.seed(1234) #creates a random seed for random numerical valyes
+numpy.random.seed(1234) #creates a random seed for random numerical values
 
 array = numpy.array([[4,4,4], [5,4,3], [9,7,2], [3,7,5]]) #creates an array of numbers
 print('new array= ',array)
