@@ -13,9 +13,12 @@ for i in range(4):
     #add values onto empty 'p' array
 
 p=numpy.concatenate(p) #overwrites 4 p arrays and merges them into a single array
+print('p values in one array: ', p)
 p_points=p.shape[0] #returns number of points in p array
+print('Number of points in p= ', p_points)
 idx=numpy.arange(p_points) #indexes p values
-print(idx)
+print('Indexing p values= ', idx)
 rnd_idx=numpy.random.permutation(idx) #randomly scrambles index
-print(rnd_idx)
+print('Scrambled index= ', rnd_idx)
 p=p[rnd_idx] #mix p values up based on scrambled index
+print('p values mixed up', p)
