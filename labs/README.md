@@ -10,7 +10,7 @@ To install using Pip, type:
 
 <code> pip install numpy </code> 
 
-<code> import numpy </code>
+<code> import numpy as np </code>
 
 ## Looking at Lab 7 code - Python
 https://github.com/wilsoncnz/it3038c-scripts/blob/main/labs/Lab7.py
