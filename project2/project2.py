@@ -114,7 +114,7 @@ else:
 
   morning = " AM"
 
-#Note output up until november 7th will be off by one hour due difference in observed daylight savings between the US and the UK (which datetime uses as a basis)
+#Note output up until november 7th will be off by one hour due to difference in observed daylight savings between the US and the UK (which datetime uses as a basis)
 
 print ("Today's date: %s/%s/%s" % (output.month, output.day, output.year))
 
