@@ -3,7 +3,6 @@ import numpy
 playerA = input('Player A, please enter Rock (R), Paper, (P), or Scissors (S): ')
 
 choice = numpy.random.randint(1,4,1)
-print(choice)
 
 if choice == 1:
     playerB = 'R'
@@ -12,10 +11,10 @@ elif choice == 2:
 elif choice == 3:
     playerB = 'S'
 
-if (playerA == 'R' or playerA == 'P' or playerA =='S') and (playerB == 'R' or player B == 'P' or playerB ='S'):
+if (playerA == 'R' or playerA == 'P' or playerA =='S') and (playerB == 'R' or playerB == 'P' or playerB == 'S'):
     if playerA == 'R' and playerB == 'S':
         print('Rock breaks scissors! Player A wins!')
-    elif player A == 'P' and playerB == 'R':
+    elif playerA == 'P' and playerB == 'R':
         print('Paper covers rock! Player A wins!')
     elif playerA == 'S' and playerB == 'P':
         print('Scissors cut paper! Player A wins!')
@@ -29,7 +28,7 @@ if (playerA == 'R' or playerA == 'P' or playerA =='S') and (playerB == 'R' or pl
         print('Both players chose:', playerA)
         print('Tie!')
 else: 
-print('You have entered an invalid input')
-print('Please run program again and enter capital R for Rock, P for Paper, and S for Scissors.')
-exit()
+    print('You have entered an invalid input')
+    print('Please run program again and enter capital R for Rock, P for Paper, and S for Scissors.')
+    exit()
 
