@@ -26,7 +26,10 @@ You have entered an invalid input </code>
 
 ### notes and sources
 https://thehelloworldprogram.com/python/python-game-rock-paper-scissors/
+
 https://www.youtube.com/watch?v=8ext9G7xspg&t=1274s
+
 https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html
+
 https://realpython.com/python-rock-paper-scissors/
 
