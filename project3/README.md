@@ -2,7 +2,7 @@
 ## Rock, Paper, Scissors Game
 
 For the previous Projects, I decided to do a code that told the user the current time, and then eventually added differing time zones. For this project, I chose to 
-do something a bit more fun and do the classic Rock, Paper, Scissors Game.
+do something a bit more fun and do the classic Rock, Paper, Scissors Game. I think this was a fun choice for the final project to work on especially during a stressful finals week. 
 
 ### code
 
