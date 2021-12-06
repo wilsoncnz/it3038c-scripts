@@ -33,3 +33,7 @@ https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.htm
 
 https://realpython.com/python-rock-paper-scissors/
 
+https://junilearning.com/blog/coding-projects/make-rock-paper-scissors-in-python/
+
+https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game/
+
